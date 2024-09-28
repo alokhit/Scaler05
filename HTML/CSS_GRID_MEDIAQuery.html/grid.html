@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS Grid & Media Queries</title>
+  <style>
+    /* #parentBox{
+        border: 2px dashed red;
+        /* display: flex; */
+        /* display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        width: 80%;
+        margin: auto;
+        gap: 20px;
+    }
+    #parentBox>div{
+        border: 1px solid teal;
+        height: 150px;
+        width: 250px;
+        display: flex;
+        padding: 10px;
+        justify-content: space-between;
+    } */
+body{
+    background-color: blanchedalmond;
+}
+    .container{
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        grid-gap: 20px;
+        width: 80%;
+        margin: auto;
+        margin-top: 60px;
+    }
+    
+    .card{
+        border: 1px solid #ccc;
+        padding: 25px;
+        height: 80px;
+        /* text-align: center; */
+        border-radius: 10px;
+    /* margin-top: -20px; */
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
+        background-color: whitesmoke;
+        
+    }
+    p+p{
+        color: rgba(250, 175, 54, 0.986);
+        display: flex;
+        justify-content: flex-end;
+        margin: auto;
+        margin-top: -95px;
+        font-size: 18px;
+        font: bold;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    }
+    .card > h3{
+        margin-top: -10px;
+    }
+</style>
+</head>
+<body>
+    <div class="container">
+        <div class="card">
+          <h3>Cappuccino</h3>
+          <p>Usage of internet is becoming more common due to rapid advance </p>
+          <p>$49</p>
+        </div>
+        
+        <div class="card">
+            <h3>Cappuccino</h3>
+            <p>Usage of internet is becoming more common due to rapid advance </p>
+            <p>$49</p>
+          </div>
+          <div class="card">
+            <h3>Cappuccino</h3>
+            <p>Usage of internet is becoming more common due to rapid advance </p>
+            <p>$49</p>
+          </div>
+          <div class="card">
+            <h3>Cappuccino</h3>
+            <p>Usage of internet is becoming more common due to rapid advance </p>
+            <p>$49</p>
+          </div>
+          <div class="card">
+            <h3>Cappuccino</h3>
+            <p>Usage of internet is becoming more common due to rapid advance </p>
+            <p>$49</p>
+          </div>
+          <div class="card">
+            <h3>Cappuccino</h3>
+            <p>Usage of internet is becoming more common due to rapid advance </p>
+            <p>$49</p>
+          </div>
+          <div class="card">
+            <h3>Cappuccino</h3>
+            <p>Usage of internet is becoming more common due to rapid advance </p>
+            <p>$49</p>
+          </div>
+          <div class="card">
+            <h3>Cappuccino</h3>
+            <p>Usage of internet is becoming more common due to rapid advance </p>
+            <p>$49</p>
+          </div>
+          <div class="card">
+            <h3>Cappuccino</h3>
+            <p>Usage of internet is becoming more common due to rapid advance </p>
+            <p>$49</p>
+          </div>
+        
+    </div>
+    
+</body>
+</html>
