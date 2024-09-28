@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Masai Navbar</title>
+
+    <Style>
+        body{
+          background-color: black;
+          margin: 0px;
+          padding: 0px;
+          margin-top: 20%;
+          border-radius: 5px;
+          font-size: medium;
+          font:bolder;
+
+        }
+     #parentBox{
+        /* border: 2px dashed coral; */
+        /* height: 70px; */
+        background-color: white;
+        
+        display: flex;
+        justify-content: space-between;
+        /* text-align: center; */
+        margin: auto;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        font-size: medium;
+        font: bolder;
+     }
+     .child1{
+        /* border: 1px solid teal; */
+        /* height: 60px; */
+        display: flex;
+        margin-left: 22px;
+        
+        
+     }
+     .child1>img{
+        width: 100px;
+     }
+     .child1 > select{
+        margin-left: 40px;
+        /* width: 80px; */
+        background-color: rgb(108, 160, 224);
+        font-size: medium;
+        font: bolder;
+        height: 45px;
+        padding: 10px;
+        border-radius: 10px;
+        margin-top: 13px;
+        /* padding-right: 10px; */
+        border: none;
+       
+     }
+     .child1 > select:hover{
+        background-color: rgb(91, 138, 195);
+     }
+
+     .child2{
+        /* border: 1px solid pink; */
+        display: flex;
+        margin: 10px 10px;
+        margin-left: 340px;
+     }
+     .child2>p{
+        margin: 15px;
+        border-radius: none;
+     }
+     .child2>p>select{
+        border: none;
+     }
+     button{
+       /* font-size: 15px; */
+        /* margin: auto; */
+      margin-top: 18px;
+      margin-right:15px;
+      border: 1px solid red ;
+      color: red;
+      border-radius: 5px; 
+      height: 38px;
+             width: 80px;
+             
+             font-size: 11px;
+     }
+     button:hover{
+        border: 1px solid rgb(223, 83, 83) ;
+        color: red;
+
+     }
+
+
+    </Style>
+
+
+
+
+</head>
+<body>
+
+    <div id="parentBox">
+        <div class="child1">
+            <img src="https://students.masaischool.com/static/media/masai-logo.e5c8801d4f26d2da036ec9e4b93cb202.svg" alt="Masai_Logo">
+            <select name="" id="">
+                <option value="ol">COURSES</option>
+            </select>
+        </div>
+
+        <div class="child2">
+            <p><select name="SHOLARSHIP" id="">
+                <option value="SCHOLARSHIP">SCHOLARSHIP</option>
+            </select></p>
+            <p>SUCCESS STORIES</p>
+            <p>EVENTS</p>
+            <p>HIRE FROM US</p>
+            <p>FEES</p>
+        </div>
+
+        <div id="btn">
+            <button>REGISTER</button>
+        </div>
+
+
+
+    </div>
+    
+</body>
+</html>
