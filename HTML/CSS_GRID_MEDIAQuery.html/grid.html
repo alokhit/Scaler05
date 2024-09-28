@@ -58,6 +58,32 @@ body{
     .card > h3{
         margin-top: -10px;
     }
+
+    @media screen and (max-width: 480px){
+        .container{
+       
+        grid-template-columns: repeat(1, 1fr);
+        background-color: bisque;
+       
+    }
+         /* .container{
+            background-color: aqua;
+         } */
+    }
+    @media screen and (min-width: 481px) and (max-width: 768px){
+        .container{
+        
+        grid-template-columns: repeat(2, 1fr);
+        background-color: #ccc;
+        
+    }
+         /* .container{
+            background-color: aqua;
+         } */
+    }
+
+
+
 </style>
 </head>
 <body>
