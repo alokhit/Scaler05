@@ -85,5 +85,16 @@ for(var i = 0; i < str.length; i++){
 // i = 3 => m:1 , a:1, s:1, a:1 
 // i = 4 => m:1 , a:1, s:1, a:1 , i:1
 
+
+// dry Run 
+// i = 0 => m = 1
+// i = 1 => m:1, a:1
+// i = 2 => m:1 , a:1, s:1, 
+// i = 3 => m:1 , a:2, s:1, a:1 
+
+
+
 console.log(diary);
 //undefined => object 
+
+
