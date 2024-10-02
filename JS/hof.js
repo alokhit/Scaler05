@@ -31,7 +31,6 @@ console.log(res, "For Each");
 var output = sweet.map(function(elem){
        return elem;
 })
-
 console.log(output, "map function");
 
 // Note:- ( Diffrence Between Map and forEach)
