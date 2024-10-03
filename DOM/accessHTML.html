@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <p id="para">I am pera</p>
+    <div id="box">I am box</div>
+    <h1 id="heading">I am <i> heading </i></h1>
+
+    <!-- .innerText==> 
+     1. retrives and sets the content in plain text
+     2. it ignore the space 
+     3. it return test without an inner element tag  -->
+
+
+     <!-- innerHTML
+       1. retrives and sets the content in HTML formate  
+       2. it considers the spaces
+       3. it return the tag with inner elelment tag  -->
+
+</body>
+</html>
+
+<script>
+    console.log(document.getElementById("para").innerText);
+    console.log(document.getElementById("heading").innerHTML);
+    console.log(document.getElementById("heading").innerText);
+
+
+
+</script>

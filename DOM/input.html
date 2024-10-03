@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>input forms</title>
+</head>
+<body>
+
+<input type="text" id="name" placeholder="Enter name" value="" />
+<button onclick="catchValue()">submit</button>
+<h1 id="output"></h1>
+    
+</body>
+</html>
+
+<script>
+
+function catchValue(){
+    
+   var studentName = document.getElementById("name");
+   console.log(studentName.value);
+
+   document.getElementById("output").innerHTML = studentName.value;
+}
+
+
+
+</script>
